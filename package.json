@@ -1,7 +1,7 @@
 {
   "name": "angular-row",
   "version": "0.0.2",
-  "description": "Automagic columnar layout for Angular\"",
+  "description": "Automagic columnar layout for Angular",
   "main": "angular-row.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
