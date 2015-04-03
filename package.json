@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/myplanetdigital/angular-row.git"
+    "url": "git://github.com/myplanet/angular-row.git"
   },
   "keywords": [
     "angular",
     "layout"
   ],
-  "author": "Ates Goral <ates@magnetiq.com> (http://magnetiq.com/)",
+  "author": "Ates Goral <ates.g@myplanet.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/myplanetdigital/angular-row/issues"
+    "url": "https://github.com/myplanet/angular-row/issues"
   }
 }

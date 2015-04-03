@@ -2,9 +2,9 @@
   "name": "angular-row",
   "main": "angular-row.js",
   "version": "0.0.1",
-  "homepage": "https://github.com/myplanetdigital/angular-row",
+  "homepage": "https://github.com/myplanet/angular-row",
   "authors": [
-    "Ates Goral <ates.g@myplanetcom>"
+    "Ates Goral <ates.g@myplanet.com>"
   ],
   "description": "Automagic columnar layout for Angular",
   "moduleType": [
