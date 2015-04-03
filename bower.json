@@ -1,7 +1,7 @@
 {
   "name": "angular-row",
   "main": "angular-row.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/myplanet/angular-row",
   "authors": [
     "Ates Goral <ates.g@myplanet.com>"
