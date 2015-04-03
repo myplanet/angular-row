@@ -1,0 +1,20 @@
+{
+  "name": "angular-row",
+  "main": "angular-row.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/myplanetdigital/angular-row",
+  "authors": [
+    "Ates Goral <ates.g@myplanetcom>"
+  ],
+  "description": "Automagic columnar layout for Angular",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "angular",
+    "layout"
+  ],
+  "license": "MIT"
+}

@@ -1,0 +1,20 @@
+.angular-row {
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: @formInputVSpacing;
+
+    > ._columns {
+        display: table;
+        width: 100%;
+
+        > * {
+            display: table-cell;
+            padding: 0 10px;
+        }
+    }
+
+    &[columns='2'] > ._columns > * { width: 50%; }
+    &[columns='3'] > ._columns > * { width: 33.33%; }
+    &[columns='4'] > ._columns > * { width: 25%; }
+    &[columns='5'] > ._columns > * { width: 20%; }
+}
