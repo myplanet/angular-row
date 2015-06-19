@@ -15,7 +15,7 @@
 }(this, function (angular) {
     'use strict';
 
-    return angular.module('mp.row', []).directive('angular-row', [ '$window', '$locale', function ($window, $locale) {
+    return angular.module('mp.row', []).directive('row', [ '$window', '$locale', function ($window, $locale) {
         // Introduce custom elements for IE8
         $window.document.createElement('row');
 
@@ -23,7 +23,7 @@
             restrict: 'AE',
             replace: true,
             transclude: true,
-            template: '<div class="row"><div class="_columns" ng-transclude></div></div>',
+            template: '<div class="angular-row"><div class="_columns" ng-transclude></div></div>',
 
             link: function (scope, element, attributes) {
                 attributes.$set('columns', element.children().eq(0).children().length);

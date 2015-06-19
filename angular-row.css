@@ -1,20 +1,21 @@
 .angular-row {
     margin-left: -10px;
     margin-right: -10px;
-    margin-top: @formInputVSpacing;
-
-    > ._columns {
-        display: table;
-        width: 100%;
-
-        > * {
-            display: table-cell;
-            padding: 0 10px;
-        }
-    }
-
-    &[columns='2'] > ._columns > * { width: 50%; }
-    &[columns='3'] > ._columns > * { width: 33.33%; }
-    &[columns='4'] > ._columns > * { width: 25%; }
-    &[columns='5'] > ._columns > * { width: 20%; }
 }
+.angular-row > ._columns {
+    display: table;
+    width: 100%;
+}
+.angular-row > ._columns > * {
+    display: table-cell;
+    padding: 0 10px;
+}
+.angular-row[columns='2'] > ._columns > * { width: 50%; }
+.angular-row[columns='3'] > ._columns > * { width: 33.3333%; }
+.angular-row[columns='4'] > ._columns > * { width: 25%; }
+.angular-row[columns='5'] > ._columns > * { width: 20%; }
+.angular-row[columns='6'] > ._columns > * { width: 16.6667%; }
+.angular-row[columns='7'] > ._columns > * { width: 14.2857%; }
+.angular-row[columns='8'] > ._columns > * { width: 12.5%; }
+.angular-row[columns='9'] > ._columns > * { width: 11.1111%; }
+.angular-row[columns='10'] > ._columns > * { width: 10%; }
